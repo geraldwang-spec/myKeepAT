@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using myKA.MViewModel;
 
 namespace myKA
 {
@@ -20,9 +21,11 @@ namespace myKA
     /// </summary>
     public partial class MainWindow : Window
     {
+        private MainWindowsVM mainVM;
         public MainWindow()
         {
             InitializeComponent();
+            mainVM = (MainWindowsVM)this.DataContext;
         }
     }
 }
