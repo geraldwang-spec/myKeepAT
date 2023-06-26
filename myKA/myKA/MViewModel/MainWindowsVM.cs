@@ -8,6 +8,7 @@ namespace myKA.MViewModel
 {
     public class MainWindowsVM : Base.ViewModelBase
     {
+
         public MainWindowsVM()
         {
             
